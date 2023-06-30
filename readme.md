@@ -1,11 +1,13 @@
-# ChatGPT+ローカルVoiceVOXサーバを使ったずんだもん音声出力
-VoiceVOX起動時に自動で立ち上がるサーバにAPIを使って何やらやってみたので、その時のコードです。
+# ChatGPT+ローカルVOICEVOXサーバを使ったずんだもん音声出力
+VOICEVOX起動時に自動で立ち上がるサーバにAPIを使って何やらやってみたので、その時のコードです。
 
 ## 環境
 
 - OS : Windows
 - Python : Python 3.10.11(実行確認環境)
 - VOICEVOX(インストール版)
+https://voicevox.hiroshiba.jp/
+
 
 ## 実行
 
@@ -29,4 +31,4 @@ python chatgpt_zundamon_intaraction.py
 ## 留意事項
 
 - あくまで個人で作ったもので、Windows11の自前の環境でしか動作を確認していません。
-- 「なぜVOICEVOX APIを使ったか？」の問については、「APIを使いたかったから」です。どう考えても、VOICEVOX Coreをコンパイルしてそれを実行した方が軽いですし楽です。
+- 「なぜVOICEVOX APIを使ったか？」の問については、「APIを使いたかったから」です。どう考えても、VOICEVOX Core(https://github.com/VOICEVOX/voicevox_core)をコンパイルしてそれを実行した方が軽いですし楽です。
