@@ -31,4 +31,4 @@ python chatgpt_zundamon_intaraction.py
 ## 留意事項
 
 - あくまで個人で作ったもので、Windows11の自前の環境でしか動作を確認していません。
-- 「なぜVOICEVOX APIを使ったか？」の問については、「APIを使いたかったから」です。どう考えても、VOICEVOX Core(https://github.com/VOICEVOX/voicevox_core)をコンパイルしてそれを実行した方が軽いですし楽です。
+- 「なぜVOICEVOX APIを使ったか？」の問については、「APIを使いたかったから」です。どう考えても、VOICEVOX Core(https://github.com/VOICEVOX/voicevox_core) をコンパイルしてそれを実行した方が軽いですし楽です。
